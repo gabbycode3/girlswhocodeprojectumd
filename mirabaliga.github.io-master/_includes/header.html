@@ -1,0 +1,31 @@
+
+<!-- Intro Start -->
+{% if site.background-type == "3d-lines" or site.background-type == "color-gradient" %}
+<div id="canvas"></div>
+<header class="intro" id="gradient">
+{% else %}
+<header class="intro">
+{% endif %}
+    <div class="intro-body">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <h1 class="brand-heading">&nbsp;</h1>
+                    <h5>&nbsp;</h5>
+                    <span class="intro-text">{{ content }}</span>
+                    <h5>&nbsp;</h5>
+                    <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
+                      <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
+                    </a>
+                    <h5>&nbsp;</h5>
+                    <div class="social_header">
+                        {% include social-buttons.html %}
+                    </div>
+                    <h1 class="brand-heading">&nbsp;</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Intro End -->

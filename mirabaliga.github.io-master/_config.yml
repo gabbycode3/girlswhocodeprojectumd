@@ -1,0 +1,242 @@
+
+# Site settings
+
+url: "https://mirabaliga.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+
+baseurl: 
+
+# Google tracking id to track your visitors
+
+google-tracking-id: "UA-74057702-1"
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Timeline: 'timeline'
+  Skills: 'skills'
+  Contact: 'contact'
+
+#############
+# HTML Head #
+#############
+
+author: "Mira Baliga"
+lang: "en"
+title: "Mira Baliga"
+favicon: "/img/faviconmint.png"
+description: "Mira Baliga's Personal Website"
+keywords: "mira, baliga"
+
+##########
+# Header #
+##########
+
+black-favicon: ""
+me-img: "/img/2016updated.png"
+
+background-type: "color-gradient"		# It can be either image, 3d-lines or color-gradient.
+
+# The following configurations are common for both color-gradient and 3d-lines.
+
+background-color-shuffle: True	# Keep shuffle True to get different background everytime.
+background-colors:	# You must add at least 4 colors.
+  - color: "5F9EA0"
+  - color: "4682B4"
+  - color: "B0C4DE"
+  - color: "ADD8E6"
+
+  - color: "B0E0E6"
+  - color: "87CEFA"
+  - color: "87CEEB"
+  - color: "6495ED"
+  
+  - color: "00BFFF"
+  - color: "1E90FF"
+  - color: "4169E1"
+  - color: "0000FF"
+  
+  - color: "0000CD"
+  - color: "00008B"
+  - color: "000080"
+  - color: "191970"
+
+background-color-trasition-speed: 0.001
+background-color-update-interval: 0.001
+
+# 3d-lines configuration
+
+# background-lines-color: "b2ebf2"
+# background-particles: 300
+
+# static background image
+
+# background-img: ""
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: False # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 4
+start-delay: 500
+delete-delay: 2000
+lines: # You can add HTML tags in the Text
+  - text: "I AM..."
+  - text: "MIRA BALIGA:"
+  - text: "PROGRAMMER."
+  - text: "SOCIAL ACTIVIST."
+  - text: "iOS DEVELOPER."
+  - text: "FEMINIST."
+
+########
+# Blog #
+########
+
+post-preview-words: 96
+
+paginate: 5
+
+fb-share: True
+twitter-share: True
+reddit-share: True
+google-plus-share: True
+linkedin-share: True
+pinterest-share: True
+vkontakte-share: True
+disqus-shortname: "mirabaliga"
+
+############
+# Timeline #
+############
+
+events:
+
+  - image: "/img/timeline/gwcumd.png"
+    organization: "Girls Who Code Club"
+    date: "2016-present"
+    role: "Teaching Assistant"
+    desc1: "~Serve as an assistant instructor for the Girls Who Code club at my university"
+    desc2: "~Serve as a mentor and supervisor for twenty middle/high school girls from the local area without previous programming experience"
+    desc3: "~Assist with curriculum development and supervise the students' final projects"
+
+  - image: "/img/timeline/equalsequals.png"
+    organization: "Equals Equals Hackathon"
+    date: "2016-present"
+    role: "Administrative Team Member"
+    desc1: "~Am part of a team planning a hackathon for under-represented racial minorities in computer science"
+    desc2: "~Develop sponsorship packages and corporate partnership deals for companies to donate to the organization"
+    desc3: "~Plan fundraising and outreach events for University of Maryland students and local high school students"
+
+  - image: "/img/timeline/gtgtc.png"
+    organization: "Stanford Girls Teaching Girls To Code"
+    date: "2015-2016"
+    role: "Lead High School Liaison"
+    desc1: "~Worked with a small group of high school girls within the Stanford computer science organization 'Girls Teaching Girls to Code'"
+    desc2: "~Served as a bridge between the organization's officers and high school students"
+    desc3: "~Planned an Hour of Code (hackathon) event at a local high school for girls with no previous computer science experience"
+  
+  #- image: "/img/timeline/gwc.png"
+    #organization: "Girls Who Code"
+    #date: "2015"
+    #role: "Summer Immersion Pilot Program Participant"
+    #desc1: "~Was one of only 20 girls nationwide to participate in Summer Immersion Program 3, a 4 week pilot program targeted towards girls with previous computer science experience"
+    #desc2: "~Worked in a group of 5 girls to design and program an iPhone app using Swift, XCode, and Objective-C"
+    #desc3: "~The app, called Allot Expense Tracker, is available for free on the Apple App Store now"
+
+  #- image: "/img/timeline/aclu.png"
+    #organization: "American Civil Liberties Union"
+    #date: "2015"
+    #role: "Volunteer"
+    #desc1: "~Attended the ACLU's annual Conference and Lobby Day in Sacramento, CA and lobbied state Senators and Assemblymembers regarding upcoming legislation"
+    #desc2: "~Also volunteered at the ACLU's San Francisco office to compile information on police surveillance activities in northern Calfornia"
+
+  - image: "/img/timeline/blockleader.png"
+    organization: "Cupertino Block Leader Program"
+    date: "2014-2016"
+    role: "Volunteer Block Leader"
+    desc1: "~Appointed by the City of Cupertino to serve as a liaison between the government and Cupertino residents"
+    desc2: "~Was the contact point between the city and dozens of families in my neighborhood"
+    desc3: "~Collaborated with hundreds of other Cupertino residents to empower the community and educate residents about safety and preparedness"
+
+
+# First image of the Career timeline
+
+career-img: "/img/timeline/bwstraighthair.png"
+
+############
+#  Skills  #
+############
+
+skills:
+  - software: "XCODE"
+    language: "JAVA"
+  - software: "UNITY"
+    language: "SWIFT"
+  - software: "MAYA"
+    language: "PYTHON"
+  - software: "ANDROID STUDIO"
+    language: "HTML"
+  - software: "PHOTOSHOP"
+    language: "CSS"
+
+
+
+###########
+# Contact #
+###########
+
+email: "mira.baliga@gmail.com"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "linkedin"
+    url: "https://linkedin.com/in/mirabaliga"
+  - title: "github"
+    url: "https://github.com/mirabaliga"
+  - title: "twitter"
+    url: "https://twitter.com/mirabaliga"
+  - title: "envelope-o"
+    url: "mailto: mira.baliga@gmail.com"
+  - title: "apple"
+    url: "https://itunes.apple.com/us/developer/sunil-baliga/id1064650783"
+
+############
+# 404 page #
+############
+
+#404-img: "/img/404motivationalcorgi.png"
+
+################################################################################
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems: [jekyll-paginate]
